@@ -1,0 +1,9 @@
+/*Tablet*/
+@media (max-width: 1000px) {
+  .avartar {
+    display: none;
+  }
+  .grid-container {
+    display: block;
+  }
+}

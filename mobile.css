@@ -1,0 +1,13 @@
+/*mobile*/
+@media (max-width: 576px) {
+  .bg-banner {
+    height: 20vh;
+  }
+  .mobile {
+    border-right: none;
+    border-bottom: 2px solid wheat;
+  }
+  .grid-container {
+    display: block;
+  }
+}

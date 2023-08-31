@@ -1,0 +1,50 @@
+/*banner*/
+.bg-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(img/banner.jpg);
+  background-size: cover;
+  height: 40vh;
+  width: auto;
+}
+.lever {
+  width: 128px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: flex;
+  gap: 10px;
+}
+.lever-on {
+  width: 36px;
+  padding: 1px;
+  background-color: #3bc9db;
+}
+.lever-of {
+  width: 36px;
+  padding: 1px;
+  background-color: #dee2e6;
+}
+.mobile {
+  border-right: 1px solid wheat;
+}
+/*digital-cv*/
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.g-timeline{
+  grid-column:3 ;
+  grid-row: 1/span 3;
+}
+h1{
+  color: #228be6;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #adb5bd;
+}
+/*	
+xs <576px
+sm ≥576px
+md ≥768px
+lg ≥992px
+xl ≥1200px
+xxl ≥1400px
